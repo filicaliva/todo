@@ -1,0 +1,15 @@
+.input_text {
+  width: 100%;
+  outline: none;
+  border: none;
+  font-size: 22px;
+  color: white;
+  padding: 4px 0 4px 30px;
+  border-radius: 8px;
+  background-color: #31373E;
+  margin-bottom: 30px;
+}
+
+.list {
+  list-style-type: none;
+}

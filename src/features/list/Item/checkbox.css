@@ -1,0 +1,53 @@
+label .css-checkbox {
+    display: none;
+}
+label .css-checkbox:checked + i {
+    background: #31373e;
+    border-color: #31373e;
+}
+label .css-checkbox:checked + i:hover:after {
+    opacity: 1;
+}
+label .css-checkbox:checked + i:after {
+    opacity: 1;
+    border-color: white;
+}
+label .css-checkbox + i {
+    box-sizing: border-box;
+}
+label .css-checkbox + i:before, label .css-checkbox + i:after {
+    box-sizing: border-box;
+}
+label .css-checkbox + i {
+    position: relative;
+    display: inline-block;
+    top: -4px;
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    vertical-align: middle;
+    border-radius: 8px;
+    background: #31373e;
+    font-size: 25px;
+    cursor: pointer;
+}
+label .css-checkbox + i:hover:after {
+    opacity: 0.2;
+}
+label .css-checkbox + i:after {
+    content: '';
+    opacity: 0;
+    transform: translateZ(1px) rotate(-45deg);
+    outline: 1px solid transparent;
+    position: absolute;
+
+    top: 22%;
+    left: 15%;
+    width: 0.68em;
+    height: 0.4em;
+    border: 0.15em solid #31373e;
+    border-top: none;
+    border-right: none;
+    background: rgba(0, 0, 0, 0);
+}
+
