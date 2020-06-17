@@ -14,3 +14,12 @@
   color: #cbcbcb;
   font-weight: 400;
 }
+
+@media screen and (max-width: 500px) {
+  .date_header1 {
+    font-size: 38px;
+  }
+  .date_header2 {
+    font-size: 20px;
+  }
+}

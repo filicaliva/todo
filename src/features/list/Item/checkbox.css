@@ -21,7 +21,7 @@ label .css-checkbox + i:before, label .css-checkbox + i:after {
 label .css-checkbox + i {
     position: relative;
     display: inline-block;
-    top: -4px;
+    top: -2px;
     width: 25px;
     height: 25px;
     margin: 0;

@@ -8,17 +8,30 @@
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
+  margin-bottom: 20px;
 }
 
 .item_text {
   outline: none;
   background-color: #3A3F48;
   margin-left: 10px;
-  font-size: 22px;
+  font-size: 20px;
   color: white;
   border: none;
 }
 
 .item_bin:hover {
   cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .item {
+    margin-left: 5%;
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 5fr 1fr;
+        grid-template-columns: 5fr 1fr;
+    -ms-grid-column-align: center;
+        justify-self: center;
+  }
 }

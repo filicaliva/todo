@@ -2,12 +2,13 @@
     display: flex
     align-items: center
     justify-content: space-between
+    margin-bottom: 20px
     
 .item_text
     outline: none
     background-color: #3A3F48
     margin-left: 10px
-    font-size: 22px
+    font-size: 20px
     color: white
     border: none
 
@@ -16,6 +17,12 @@
         cursor: pointer
 
 
-  
+@media screen and(max-width: 450px)
+    .item
+        margin-left: 5%
+        display: grid
+        grid-template-columns: 5fr 1fr
+        justify-self: center
+
   
   
