@@ -20,8 +20,12 @@
   border: none;
 }
 
-.item_bin:hover {
+.cursor:hover {
   cursor: pointer;
+}
+
+.edit {
+  margin-right: 15px;
 }
 
 @media screen and (max-width: 450px) {
